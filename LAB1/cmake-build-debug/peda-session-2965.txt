@@ -1,0 +1,4 @@
+break /home/davide/Scrivania/PDS/LAB1/main.cpp:37
+break /home/davide/Scrivania/PDS/LAB1/Message.cpp:23
+
+set exec-wrapper The wrapper for running programs is \

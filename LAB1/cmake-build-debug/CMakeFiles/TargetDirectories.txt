@@ -1,0 +1,3 @@
+/home/davide/Scrivania/PDS/LAB1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/davide/Scrivania/PDS/LAB1/cmake-build-debug/CMakeFiles/LAB1.dir
+/home/davide/Scrivania/PDS/LAB1/cmake-build-debug/CMakeFiles/edit_cache.dir
