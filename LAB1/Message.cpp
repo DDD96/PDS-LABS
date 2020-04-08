@@ -12,23 +12,40 @@
 #include "Message.h"
 
 #define debug true
-long Message::progressive=1;
+long Message::progressive=0;
 long Message::count=0;
+
     Message::~Message(){
         delete[] this->data;
         if constexpr (debug) std::cout<<"Message::Distruttore"<<std::endl;
         count--;
+        std::cout << "COUNT = " << count << std::endl;
         if(count == 0) {
             std::cout << "TUTTO PULITO!" << std::endl;
         }
     }
+
     Message::Message() {
         this->id = -1;
-        this->size = 0; //15
+        this->size = 0;
         this->data = mkMessage(this->size);
         count++;
         if constexpr (debug) std::cout<<"Message::base constructor"<<std::endl;
     }
+
+    Message::Message(int i) {
+    if(i==0){
+        this->id = -1;
+        this->data = mkMessage(0);
+        this->size = 0;
+    }else {
+        this->id = this->progressive++;
+        this->size = i;
+        this->data = mkMessage(this->size);
+    }
+    count++;
+    if constexpr (debug) std::cout<<"Message::Default constructor"<<std::endl;
+}
 
     Message::Message(const Message& src)/*:size(src.size)*/{
         this->size = src.size;
@@ -39,19 +56,6 @@ long Message::count=0;
         count++;
         if constexpr (debug) std::cout<<"Message::Copy constructor"<<std::endl;
     }
-
-    Message::Message(int i) {
-    this->id = this->progressive++;
-    this->size = i;
-    if (i == -1) {
-        this->id =-1;
-        this->data = mkMessage(0);
-    } else {
-        this->data = mkMessage(this->size);
-    }
-    count++;
-    if constexpr (debug) std::cout<<"Message::Default constructor"<<std::endl;
-}
 
     Message::Message(Message&& src):size(src.size){
         this->id = this->progressive++;
@@ -69,6 +73,7 @@ long Message::count=0;
             this->size = src.size;
             this->data = new char[this->size+1];
             memcpy(this->data, src.getData(), this->size+1);
+            //delete &src;
         }
         return *this;
     }
@@ -77,6 +82,7 @@ long Message::count=0;
         if constexpr (debug) std::cout<<"Message::Movement operator"<<std::endl;
         if(this!=&src){
             delete[] this->data;
+            this->id = src.id;
             this->size = src.size;
             this->data = src.data;
             src.data = nullptr;

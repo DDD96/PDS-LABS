@@ -35,19 +35,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/davide/Scaricati/clion-2019.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/davide/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/davide/Scaricati/clion-2019.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/davide/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/davide/Scrivania/PDS/LAB1
+CMAKE_SOURCE_DIR = /home/davide/Desktop/PDS/PDS-LABS/LAB1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/davide/Scrivania/PDS/LAB1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/davide/Desktop/PDS/PDS-LABS/LAB1/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ preinstall:
 CMakeFiles/LAB1.dir/all:
 	$(MAKE) -f CMakeFiles/LAB1.dir/build.make CMakeFiles/LAB1.dir/depend
 	$(MAKE) -f CMakeFiles/LAB1.dir/build.make CMakeFiles/LAB1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/davide/Scrivania/PDS/LAB1/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target LAB1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/davide/Desktop/PDS/PDS-LABS/LAB1/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target LAB1"
 .PHONY : CMakeFiles/LAB1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LAB1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/davide/Scrivania/PDS/LAB1/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/davide/Desktop/PDS/PDS-LABS/LAB1/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LAB1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/davide/Scrivania/PDS/LAB1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/davide/Desktop/PDS/PDS-LABS/LAB1/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/LAB1.dir/rule
 
 # Convenience name for target.

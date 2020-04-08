@@ -11,7 +11,34 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b42d790-b950-4d9e-ad3a-8c2963feb5fa" name="Default Changelist" comment="" />
+    <list default="true" id="5b42d790-b950-4d9e-ad3a-8c2963feb5fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Message.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Message.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MessageStore.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MessageStore.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MessageStore.h" beforeDir="false" afterPath="$PROJECT_DIR$/MessageStore.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/DurationLogger.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/DurationLogger.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/Message.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/Message.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/MessageStore.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/MessageStore.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LAB1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LAB1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LAB1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LAB1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/peda-session-unknown.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/peda-session-unknown.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +48,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Ztp3ygEiMq5Td0yhUlsnjcLtxD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,7 +60,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,6 +99,11 @@
       <workItem from="1585765325333" duration="2333000" />
       <workItem from="1585815208337" duration="8878000" />
       <workItem from="1585837047589" duration="9332000" />
+      <workItem from="1585904168730" duration="1053000" />
+      <workItem from="1585905450966" duration="10870000" />
+      <workItem from="1585919608651" duration="1274000" />
+      <workItem from="1585921272433" duration="2859000" />
+      <workItem from="1585931793134" duration="1806000" />
     </task>
     <servers />
   </component>
@@ -97,57 +135,86 @@
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="481" y="166" width="524" height="594" key="FileChooserDialogImpl/67.27.1373.873@67.27.1373.873" timestamp="1585672780263" />
-    <state width="1313" height="213" key="GridCell.Tab.0.bottom" timestamp="1585846406477">
+    <state width="1327" height="366" key="GridCell.Tab.0.bottom" timestamp="1585933603141">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1313" height="213" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1585846406477" />
-    <state width="1313" height="213" key="GridCell.Tab.0.center" timestamp="1585846406469">
+    <state width="1327" height="366" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1585933603141" />
+    <state width="1327" height="366" key="GridCell.Tab.0.center" timestamp="1585933603139">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1313" height="213" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1585846406469" />
-    <state width="1313" height="213" key="GridCell.Tab.0.left" timestamp="1585846406463">
+    <state width="1327" height="366" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1585933603139" />
+    <state width="1327" height="366" key="GridCell.Tab.0.left" timestamp="1585933603138">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1313" height="213" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1585846406463" />
-    <state width="1313" height="213" key="GridCell.Tab.0.right" timestamp="1585846406473">
+    <state width="1327" height="366" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1585933603138" />
+    <state width="1327" height="366" key="GridCell.Tab.0.right" timestamp="1585933603140">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1313" height="213" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1585846406473" />
-    <state width="1313" height="225" key="GridCell.Tab.1.bottom" timestamp="1585819018301">
+    <state width="1327" height="366" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1585933603140" />
+    <state width="1327" height="366" key="GridCell.Tab.1.bottom" timestamp="1585933603146">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1313" height="225" key="GridCell.Tab.1.bottom/67.27.1373.873@67.27.1373.873" timestamp="1585819018301" />
-    <state width="1313" height="225" key="GridCell.Tab.1.center" timestamp="1585819018298">
+    <state width="1327" height="366" key="GridCell.Tab.1.bottom/67.27.1373.873@67.27.1373.873" timestamp="1585933603146" />
+    <state width="1327" height="366" key="GridCell.Tab.1.center" timestamp="1585933603144">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1313" height="225" key="GridCell.Tab.1.center/67.27.1373.873@67.27.1373.873" timestamp="1585819018298" />
-    <state width="1313" height="225" key="GridCell.Tab.1.left" timestamp="1585819018297">
+    <state width="1327" height="366" key="GridCell.Tab.1.center/67.27.1373.873@67.27.1373.873" timestamp="1585933603144" />
+    <state width="1327" height="366" key="GridCell.Tab.1.left" timestamp="1585933603142">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1313" height="225" key="GridCell.Tab.1.left/67.27.1373.873@67.27.1373.873" timestamp="1585819018297" />
-    <state width="1313" height="225" key="GridCell.Tab.1.right" timestamp="1585819018300">
+    <state width="1327" height="366" key="GridCell.Tab.1.left/67.27.1373.873@67.27.1373.873" timestamp="1585933603142" />
+    <state width="1327" height="366" key="GridCell.Tab.1.right" timestamp="1585933603145">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1313" height="225" key="GridCell.Tab.1.right/67.27.1373.873@67.27.1373.873" timestamp="1585819018300" />
+    <state width="1327" height="366" key="GridCell.Tab.1.right/67.27.1373.873@67.27.1373.873" timestamp="1585933603145" />
     <state x="111" y="27" width="1274" height="873" key="SettingsEditor" timestamp="1585729064262">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="111" y="27" width="1274" height="873" key="SettingsEditor/67.27.1373.873@67.27.1373.873" timestamp="1585729064262" />
-    <state x="308" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1585837049494">
+    <state x="308" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1585931808742">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state x="308" y="251" key="com.intellij.ide.util.TipDialog/67.27.1373.873@67.27.1373.873" timestamp="1585837049494" />
+    <state x="308" y="251" key="com.intellij.ide.util.TipDialog/67.27.1373.873@67.27.1373.873" timestamp="1585931808742" />
     <state x="438" y="38" width="620" height="849" key="refactoring.ChangeSignatureDialog" timestamp="1585732949073">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="438" y="38" width="620" height="849" key="refactoring.ChangeSignatureDialog/67.27.1373.873@67.27.1373.873" timestamp="1585732949073" />
-    <state x="333" y="204" key="run.anything.popup" timestamp="1585746374987">
+    <state x="333" y="204" key="run.anything.popup" timestamp="1585907938198">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state x="333" y="204" key="run.anything.popup/67.27.1373.873@67.27.1373.873" timestamp="1585746374987" />
+    <state x="333" y="204" key="run.anything.popup/67.27.1373.873@67.27.1373.873" timestamp="1585907938198" />
     <state x="332" y="27" width="840" height="871" key="search.everywhere.popup" timestamp="1585838673160">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="332" y="27" width="840" height="871" key="search.everywhere.popup/67.27.1373.873@67.27.1373.873" timestamp="1585838673160" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>160</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>165</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>134</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="store-&gt;messages[1]" language="ObjectiveC" />
+        <watch expression="this-&gt;messages[i]" language="ObjectiveC" />
+        <watch expression="nuovo[i]" language="ObjectiveC" />
+        <watch expression="messages[i].getId()" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

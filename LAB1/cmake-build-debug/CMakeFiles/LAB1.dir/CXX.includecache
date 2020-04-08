@@ -6,53 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/davide/Scrivania/PDS/LAB1/DurationLogger.h
+/home/davide/Desktop/PDS/PDS-LABS/LAB1/DurationLogger.h
 string
 -
 ctime
 -
 
-/home/davide/Scrivania/PDS/LAB1/Message.cpp
-iostream
--
-cstring
--
-Message.h
-/home/davide/Scrivania/PDS/LAB1/Message.h
-
-/home/davide/Scrivania/PDS/LAB1/Message.h
+/home/davide/Desktop/PDS/PDS-LABS/LAB1/Message.h
 cstring
 -
 
-/home/davide/Scrivania/PDS/LAB1/MessageStore.cpp
-optional
--
-tuple
--
-cmath
--
-MessageStore.h
-/home/davide/Scrivania/PDS/LAB1/MessageStore.h
-
-/home/davide/Scrivania/PDS/LAB1/MessageStore.h
+/home/davide/Desktop/PDS/PDS-LABS/LAB1/MessageStore.h
 iostream
 -
 Message.h
-/home/davide/Scrivania/PDS/LAB1/Message.h
+/home/davide/Desktop/PDS/PDS-LABS/LAB1/Message.h
 optional
 -
 tuple
 -
 
-/home/davide/Scrivania/PDS/LAB1/main.cpp
+/home/davide/Desktop/PDS/PDS-LABS/LAB1/main.cpp
 iostream
 -
 Message.h
-/home/davide/Scrivania/PDS/LAB1/Message.h
+/home/davide/Desktop/PDS/PDS-LABS/LAB1/Message.h
 DurationLogger.h
-/home/davide/Scrivania/PDS/LAB1/DurationLogger.h
+/home/davide/Desktop/PDS/PDS-LABS/LAB1/DurationLogger.h
 MessageStore.h
-/home/davide/Scrivania/PDS/LAB1/MessageStore.h
+/home/davide/Desktop/PDS/PDS-LABS/LAB1/MessageStore.h
 ctime
 -
 

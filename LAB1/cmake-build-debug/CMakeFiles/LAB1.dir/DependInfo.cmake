@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/davide/Scrivania/PDS/LAB1/DurationLogger.cpp" "/home/davide/Scrivania/PDS/LAB1/cmake-build-debug/CMakeFiles/LAB1.dir/DurationLogger.cpp.o"
-  "/home/davide/Scrivania/PDS/LAB1/Message.cpp" "/home/davide/Scrivania/PDS/LAB1/cmake-build-debug/CMakeFiles/LAB1.dir/Message.cpp.o"
-  "/home/davide/Scrivania/PDS/LAB1/MessageStore.cpp" "/home/davide/Scrivania/PDS/LAB1/cmake-build-debug/CMakeFiles/LAB1.dir/MessageStore.cpp.o"
-  "/home/davide/Scrivania/PDS/LAB1/main.cpp" "/home/davide/Scrivania/PDS/LAB1/cmake-build-debug/CMakeFiles/LAB1.dir/main.cpp.o"
+  "/home/davide/Desktop/PDS/PDS-LABS/LAB1/DurationLogger.cpp" "/home/davide/Desktop/PDS/PDS-LABS/LAB1/cmake-build-debug/CMakeFiles/LAB1.dir/DurationLogger.cpp.o"
+  "/home/davide/Desktop/PDS/PDS-LABS/LAB1/Message.cpp" "/home/davide/Desktop/PDS/PDS-LABS/LAB1/cmake-build-debug/CMakeFiles/LAB1.dir/Message.cpp.o"
+  "/home/davide/Desktop/PDS/PDS-LABS/LAB1/MessageStore.cpp" "/home/davide/Desktop/PDS/PDS-LABS/LAB1/cmake-build-debug/CMakeFiles/LAB1.dir/MessageStore.cpp.o"
+  "/home/davide/Desktop/PDS/PDS-LABS/LAB1/main.cpp" "/home/davide/Desktop/PDS/PDS-LABS/LAB1/cmake-build-debug/CMakeFiles/LAB1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

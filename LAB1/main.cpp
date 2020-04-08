@@ -46,12 +46,17 @@ void secondo(){
         std::cout<<buff1[i].getData()<<std::endl;
     }*/
     std::cout << "secondo" << std::endl;
-    //  Message *buff2 = new Message[10];
+    Message *buff2 = new Message[10];
+    delete [] buff2;
+//    for(int i=0; i<10; i++ ){
+//        delete &(buff2[i]);
+//    }
 /*
     for(int i=0; i<10; i++){
         std::cout<<buff2[i].getData()<<std::endl;
     }
 */
+
     //std::cout<<buff1[0].getData()<<std::endl;
     //Message m1(5);
     //Message m2(10);
@@ -127,19 +132,37 @@ void quarto(){
 }
 void quinto(){
 //    problema: inserisce qualcosa il cui identificativo esiste gia'
-    MessageStore store = MessageStore(10);
-    Message *m;
-    for(int i=0; i<100; i++) {
-        m = new Message(1024*1024);
-        store.addMessage(*m);
+    MessageStore store = MessageStore(3);
+//    Message *m = new Message(1024*1024) ;
+    int aggiunte = 3;
+    for(int i=0; i<aggiunte; i++) {
+        Message *m = new Message(1024*1024);
+        store.add(*m);
+        delete m;
+    }
+/*
+    std::cout << "ARRIVATO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" << std::endl;
+    for(int i=0; i<store.getDim(); i++) {
+        //m = new Message(1024*1024);
+        std::cout << store.getMessages()[i].getId() << std::endl;
     }
     //cancello 50
-    for(int i=0; i<100; i++) {
+    for(int i=0; i<store.getDim(); i++) {
         if(i%2 == 0){
             store.remove(store.getMessages()[i].getId());
         }
     }
+    for(int i=0; i<store.getDim(); i++) {
+        //m = new Message(1024*1024);
+        std::cout << store.getMessages()[i].getId() << std::endl;
+    }
+
     store.compact();
+    for(int i=0; i<store.getDim(); i++) {
+        //m = new Message(1024*1024);
+        std::cout << store.getMessages()[i].getId() << std::endl;
+    }
+*/
 }
 int main() {
     quinto();

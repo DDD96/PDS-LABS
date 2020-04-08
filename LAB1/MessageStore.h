@@ -27,7 +27,7 @@ class MessageStore {
 public:
     MessageStore(int n);
     ~MessageStore();
-    void addMessage(Message& m);
+    void add(Message& m);
     // inserisce un nuovo messaggio o sovrascrive quello precedente
     //se ce n’è uno presente con lo stesso id
     std::optional<Message> get(long id);
